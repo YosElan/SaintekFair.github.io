@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha384-oCEC5S4Z3z85Vouz+4aS9I1z8ImXXjFpXxVny3KJw5aSqFJmCCv5zWiinK95Si6F5"
+      crossorigin="anonymous"
+    />
+
+    <title>Saintek</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo"><strong>XII IPS 2</strong></a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#products" class="nav__link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/bumi1.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/img/neraka1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/img/surga1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!--===== PRODUCTS =====-->
+      <section class="productions section" id="products">
+        <h2 class="section-title">Products</h2>
+
+        <div class="products__container bd-grid">
+          <div class="products__img">
+            <img src="assets/img/pop ice taro.jpg" alt="" />
+          </div>
+
+          <div>
+            <h2 class="products__subtitle">Pop Ice Taro</h2>
+            <p class="products__text">
+              Kami dari XII IPS 2, menjual sebuah Minuman yang segar yaitu Pop
+              ice taro
+            </p>
+            <h2 class="products__subtitle">penjelasan Minuman</h2>
+            <p class="products__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+              veritatis minima quod magni suscipit amet reprehenderit, nihil, in
+              esse sequi aut, nobis laborum dolores minus alias qui quibusdam
+              expedita doloribus?
+            </p>
+            <a
+              type="button"
+              class="btn btn-success btn-lg products__button"
+              href="https://wa.me/6289531806458?text=Hallo kak beli 1 dong"
+              >Beli Dek!</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!--===== About Us =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About Us</h2>
+        <p class="text-center">XII IPS 2</p>
+        <div class="about__container bd-grid">
+          <ul class="card-list">
+            <li class="card">
+              <a
+                class="card-image"
+                href="#home"
+                
+                style="
+                  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/psychopomp-100.jpg);
+                "
+                data-image-full="https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/psychopomp-500.jpg"
+              >
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/psychopomp-100.jpg"
+                  alt="Psychopomp"
+                />
+              </a>
+              <a
+                class="card-description"
+                href="#home"
+                
+              >
+                <h2>Psychopomp</h2>
+                <p>Japanese Breakfast</p>
+              </a>
+            </li>
+
+            <li class="card">
+              <a
+                class="card-image"
+                href="#home"
+                
+                style="
+                  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/lets-go-100.jpg);
+                "
+                data-image-full="https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/lets-go-500.jpg"
+              >
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/lets-go-100.jpg"
+                  alt="let's go"
+                />
+              </a>
+              <a
+                class="card-description"
+                href="#home"
+                
+              >
+                <h2>let's go</h2>
+                <p>In Love With A Ghost</p>
+              </a>
+            </li>
+
+            <li class="card">
+              <a
+                class="card-image"
+                href="#home"
+                
+                style="
+                  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/beautiful-game-100.jpg);
+                "
+                data-image-full="https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/beautiful-game-500.jpg"
+              >
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/beautiful-game-100.jpg"
+                  alt="The Beautiful Game"
+                />
+              </a>
+              <a
+                class="card-description"
+                href="#home"
+                
+              >
+                <h2>The Beautiful Game</h2>
+                <p>Vulfpeck</p>
+              </a>
+            </li>
+
+            <li class="card">
+              <a
+                class="card-image"
+                href="#home"
+                
+                style="
+                  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/jane-doe-100.jpg);
+                "
+                data-image-full="https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/jane-doe-500.jpg"
+              >
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/jane-doe-100.jpg"
+                  alt="Jane Doe"
+                />
+              </a>
+              <a
+                class="card-description"
+                href="#home"
+                
+              >
+                <h2>Jane Doe</h2>
+                <p>Converge</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ===== CONTACT =====
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="mail" placeholder="Email" class="contact__input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input type="button" value="Kirim" class="contact__button button" />
+          </form>
+        </div>
+      </section>
+    </main> -->
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">XII IPS 2</p>
+      <div class="footer__social">
+        <a
+          href="facebook.com"
+          class="footer__icon"
+          ><i class="bx bxl-facebook"></i
+        ></a>
+        <a
+          href="https://instagram.com"
+          class="footer__icon"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a href="https://wa.me/6289531806458?text=Hallo+kak+beli+1+dong" class="footer__icon"
+          ><i class="bx bxl-whatsapp"></i
+        ></a>
+      </div>
+      <p class="footer__copy">&#169;</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
